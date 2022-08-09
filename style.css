@@ -1,0 +1,90 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 64px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 48px;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882f6;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+}
+
+.footer {
+    background-color: #1F2937;
+}
