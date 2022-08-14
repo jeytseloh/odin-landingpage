@@ -73,7 +73,7 @@ button {
     align-items: center;
     justify-content: center;
     border: none;
-    margin: 16px;
+    margin: 16px 0;
 }
 
 .call-button {
@@ -97,7 +97,7 @@ button {
 }
 
 .item-img {
-    max-width: 100px;
+    max-width: 150px;
     height: auto;
     border: 3px solid #3882f6;
     border-radius: 10px;
@@ -105,8 +105,8 @@ button {
 
 .text {
     text-align: center;
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex;
+    flex-wrap: wrap; */
 }
 
 .info-header {
@@ -139,6 +139,9 @@ button {
 .quote-author {
     font-weight: bold;
     margin-right: auto;
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 32px;
 }
 
 .call-to-action {
